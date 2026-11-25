@@ -1,0 +1,20 @@
+{
+ "note": "FROZEN encoder, 1 midpoint frame per press - the control for finetune_dino.py, which uses the same frames and folds",
+ "device": "directml",
+ "runs": [
+  {
+   "fold": 0,
+   "head": "Logistic",
+   "accuracy": 0.6121457489878542,
+   "macro_f1": 0.28158024535245973,
+   "acc_f1": 0.446862997170157
+  },
+  {
+   "fold": 0,
+   "head": "SVM-RBF",
+   "accuracy": 0.6080971659919029,
+   "macro_f1": 0.34672177522210457,
+   "acc_f1": 0.4774094706070037
+  }
+ ]
+}

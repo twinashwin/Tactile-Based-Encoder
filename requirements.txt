@@ -1,0 +1,13 @@
+# Versions as used for the reported results.
+#
+# torch-directml targets AMD GPUs on Windows and is what this work ran on. On
+# NVIDIA hardware, drop it and pass --device cuda instead of --device directml.
+torch==2.4.1
+torch-directml==0.2.5.dev240914
+numpy==2.5.3
+scikit-learn==1.9.1
+pandas==3.0.6
+pillow==12.3.0
+
+# fig_nested_cv.py only
+matplotlib

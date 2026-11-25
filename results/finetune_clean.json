@@ -1,0 +1,86 @@
+{
+ "device": "directml",
+ "backbone": "dinov2_vits14",
+ "epochs": 10,
+ "frames_per_press": 1,
+ "protocol": "5 of 5 session-grouped folds (NOT the nested-CV headline)",
+ "class_weight": "none",
+ "select_on": "accuracy",
+ "size": 224,
+ "norm": "imagenet",
+ "flip": "plain",
+ "channels": 3,
+ "inner_val_folds": 4,
+ "class_names": [
+  "Concrete",
+  "Plastic",
+  "Glass",
+  "Wood",
+  "Metal",
+  "Brick",
+  "Tile",
+  "Leather",
+  "Synthetic Fabric",
+  "Rubber",
+  "Paper",
+  "Tree",
+  "Grass",
+  "Soil",
+  "Rock",
+  "Gravel",
+  "Sand",
+  "Plants"
+ ],
+ "folds": [
+  {
+   "fold": 0,
+   "epoch": 10,
+   "val_accuracy": 0.6481788079470199,
+   "val_macro_f1": 0.42464904389907654,
+   "val_acc_f1": 0.5364139259230483,
+   "accuracy": 0.6461538461538462,
+   "macro_f1": 0.43390610003682223,
+   "acc_f1": 0.5400299730953342
+  },
+  {
+   "fold": 1,
+   "epoch": 9,
+   "val_accuracy": 0.6580852775543041,
+   "val_macro_f1": 0.4222554646366415,
+   "val_acc_f1": 0.5401703710954728,
+   "accuracy": 0.6663914120561519,
+   "macro_f1": 0.40851517181475516,
+   "acc_f1": 0.5374532919354535
+  },
+  {
+   "fold": 2,
+   "epoch": 10,
+   "val_accuracy": 0.6403361344537815,
+   "val_macro_f1": 0.3756835661645349,
+   "val_acc_f1": 0.5080098503091581,
+   "accuracy": 0.6500789889415481,
+   "macro_f1": 0.4019815887431263,
+   "acc_f1": 0.5260302888423372
+  },
+  {
+   "fold": 3,
+   "epoch": 10,
+   "val_accuracy": 0.6433224755700325,
+   "val_macro_f1": 0.40864418481498227,
+   "val_acc_f1": 0.5259833301925074,
+   "accuracy": 0.5832599118942732,
+   "macro_f1": 0.3651025600006868,
+   "acc_f1": 0.47418123594747996
+  },
+  {
+   "fold": 4,
+   "epoch": 9,
+   "val_accuracy": 0.6699751861042184,
+   "val_macro_f1": 0.4622126244417825,
+   "val_acc_f1": 0.5660939052730004,
+   "accuracy": 0.6585173501577287,
+   "macro_f1": 0.43087543604262885,
+   "acc_f1": 0.5446963931001788
+  }
+ ]
+}

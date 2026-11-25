@@ -1,0 +1,22 @@
+{
+ "runs": [
+  {
+   "encoder": "frozen DINOv2",
+   "split": "random (official-split character)",
+   "accuracy": 0.8167510853835022,
+   "accuracy_std": 0.0,
+   "macro_f1": 0.784527578216207,
+   "n_folds": 1,
+   "n_frames": 55278
+  },
+  {
+   "encoder": "frozen DINOv2",
+   "split": "video-disjoint (leak-free)",
+   "accuracy": 0.6148705096073517,
+   "accuracy_std": 0.0,
+   "macro_f1": 0.3066211791188901,
+   "n_folds": 1,
+   "n_frames": 55278
+  }
+ ]
+}

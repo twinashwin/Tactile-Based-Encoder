@@ -1,0 +1,14 @@
+{
+ "features": [
+  "..\\features_ftg0_patch",
+  "..\\features_ftg0_bg"
+ ],
+ "fold": 0,
+ "protocol": "grouped",
+ "config": {
+  "pca": null,
+  "alpha": 0.0001
+ },
+ "accuracy": 0.7210526315789474,
+ "macro_f1": 0.5027825280234408
+}

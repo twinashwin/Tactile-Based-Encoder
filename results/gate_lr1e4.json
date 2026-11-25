@@ -1,0 +1,47 @@
+{
+ "device": "directml",
+ "backbone": "dinov2_vits14",
+ "epochs": 10,
+ "frames_per_press": 1,
+ "protocol": "5 of 5 session-grouped folds (NOT the nested-CV headline)",
+ "class_weight": "none",
+ "select_on": "accuracy",
+ "size": 224,
+ "norm": "imagenet",
+ "flip": "plain",
+ "channels": 3,
+ "init": null,
+ "inner_val_folds": 4,
+ "class_names": [
+  "Concrete",
+  "Plastic",
+  "Glass",
+  "Wood",
+  "Metal",
+  "Brick",
+  "Tile",
+  "Leather",
+  "Synthetic Fabric",
+  "Rubber",
+  "Paper",
+  "Tree",
+  "Grass",
+  "Soil",
+  "Rock",
+  "Gravel",
+  "Sand",
+  "Plants"
+ ],
+ "folds": [
+  {
+   "fold": 0,
+   "epoch": 9,
+   "val_accuracy": 0.44867549668874174,
+   "val_macro_f1": 0.1748845538383268,
+   "val_acc_f1": 0.31178002526353427,
+   "accuracy": 0.4388663967611336,
+   "macro_f1": 0.13020787661107633,
+   "acc_f1": 0.284537136686105
+  }
+ ]
+}

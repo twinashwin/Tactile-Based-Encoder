@@ -1,0 +1,49 @@
+[
+ {
+  "features": "dinop9_patch+patch_bg+radiomics",
+  "head": "MLP",
+  "selected_on": "acc_f1",
+  "accuracy": 0.6217,
+  "balanced_accuracy": 0.3805,
+  "macro_f1": 0.3907,
+  "acc_f1": 0.5062,
+  "fold_std": 0.0302,
+  "hyperparams": [
+   {
+    "pca": null,
+    "whiten": false,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 46
+   },
+   {
+    "pca": null,
+    "whiten": false,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 36
+   },
+   {
+    "pca": null,
+    "whiten": false,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 29
+   },
+   {
+    "pca": null,
+    "whiten": false,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 40
+   },
+   {
+    "pca": null,
+    "whiten": false,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 26
+   }
+  ]
+ }
+]

@@ -1,0 +1,49 @@
+[
+ {
+  "features": "dinop9_patch+patch_bg",
+  "head": "MLP",
+  "selected_on": "acc_f1",
+  "accuracy": 0.61,
+  "balanced_accuracy": 0.397,
+  "macro_f1": 0.3949,
+  "acc_f1": 0.5024,
+  "fold_std": 0.0219,
+  "hyperparams": [
+   {
+    "pca": null,
+    "whiten": false,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 33
+   },
+   {
+    "pca": null,
+    "whiten": false,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 47
+   },
+   {
+    "pca": null,
+    "whiten": false,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 47
+   },
+   {
+    "pca": null,
+    "whiten": false,
+    "weight_decay": 0.0001,
+    "class_weight": "balanced",
+    "epochs": 36
+   },
+   {
+    "pca": null,
+    "whiten": false,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 40
+   }
+  ]
+ }
+]

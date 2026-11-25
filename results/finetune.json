@@ -1,0 +1,36 @@
+{
+ "device": "directml",
+ "backbone": "dinov2_vits14",
+ "epochs": 10,
+ "frames_per_press": 1,
+ "protocol": "1 of 5 session-grouped folds (NOT the nested-CV headline)",
+ "class_names": [
+  "Concrete",
+  "Plastic",
+  "Glass",
+  "Wood",
+  "Metal",
+  "Brick",
+  "Tile",
+  "Leather",
+  "Synthetic Fabric",
+  "Rubber",
+  "Paper",
+  "Tree",
+  "Grass",
+  "Soil",
+  "Rock",
+  "Gravel",
+  "Sand",
+  "Plants"
+ ],
+ "folds": [
+  {
+   "fold": 0,
+   "epoch": 9,
+   "accuracy": 0.6105263157894737,
+   "macro_f1": 0.48445975763654037,
+   "acc_f1": 0.5474930367130071
+  }
+ ]
+}

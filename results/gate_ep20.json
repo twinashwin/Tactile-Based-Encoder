@@ -1,0 +1,67 @@
+{
+ "device": "directml",
+ "backbone": "dinov2_vits14",
+ "epochs": 20,
+ "frames_per_press": 1,
+ "protocol": "5 of 5 session-grouped folds (NOT the nested-CV headline)",
+ "class_weight": "none",
+ "select_on": "accuracy",
+ "size": 224,
+ "norm": "imagenet",
+ "flip": "plain",
+ "channels": 3,
+ "init": null,
+ "inner_val_folds": 4,
+ "class_names": [
+  "Concrete",
+  "Plastic",
+  "Glass",
+  "Wood",
+  "Metal",
+  "Brick",
+  "Tile",
+  "Leather",
+  "Synthetic Fabric",
+  "Rubber",
+  "Paper",
+  "Tree",
+  "Grass",
+  "Soil",
+  "Rock",
+  "Gravel",
+  "Sand",
+  "Plants"
+ ],
+ "folds": [
+  {
+   "fold": 0,
+   "epoch": 19,
+   "val_accuracy": 0.6539735099337748,
+   "val_macro_f1": 0.4258310142828185,
+   "val_acc_f1": 0.5399022621082966,
+   "accuracy": 0.6534412955465587,
+   "macro_f1": 0.46969422117598225,
+   "acc_f1": 0.5615677583612705
+  },
+  {
+   "fold": 1,
+   "epoch": 6,
+   "val_accuracy": 0.6291230893000804,
+   "val_macro_f1": 0.33535430114499776,
+   "val_acc_f1": 0.4822386952225391,
+   "accuracy": 0.6317093311312965,
+   "macro_f1": 0.3297257067753104,
+   "acc_f1": 0.4807175189533034
+  },
+  {
+   "fold": 2,
+   "epoch": 15,
+   "val_accuracy": 0.6369747899159663,
+   "val_macro_f1": 0.37181900900055387,
+   "val_acc_f1": 0.5043968994582602,
+   "accuracy": 0.6263823064770933,
+   "macro_f1": 0.3723605307477438,
+   "acc_f1": 0.4993714186124185
+  }
+ ]
+}

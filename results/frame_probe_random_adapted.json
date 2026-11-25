@@ -1,0 +1,23 @@
+{
+ "tag": "adapted",
+ "template": [
+  "../features_ftf_patch",
+  "../features_ftf_bg"
+ ],
+ "split": "press-level random, encoder k scores fold k",
+ "folds": [
+  {
+   "fold": 0,
+   "C": 1.0,
+   "accuracy": 0.7546333966187506,
+   "macro_f1": 0.5487989432110821,
+   "n_train": 44217,
+   "n_test": 11061
+  }
+ ],
+ "accuracy_mean": 0.7546333966187506,
+ "accuracy_std": 0.0,
+ "macro_f1_mean": 0.5487989432110821,
+ "macro_f1_std": 0.0,
+ "n_folds": 1
+}

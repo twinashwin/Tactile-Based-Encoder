@@ -1,0 +1,49 @@
+[
+ {
+  "features": "radiomics_nomark",
+  "head": "MLP",
+  "selected_on": "acc_f1",
+  "accuracy": 0.3202,
+  "balanced_accuracy": 0.115,
+  "macro_f1": 0.1073,
+  "acc_f1": 0.2137,
+  "fold_std": 0.0285,
+  "hyperparams": [
+   {
+    "pca": 128,
+    "whiten": true,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 69
+   },
+   {
+    "pca": 192,
+    "whiten": true,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 23
+   },
+   {
+    "pca": 64,
+    "whiten": true,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 34
+   },
+   {
+    "pca": 128,
+    "whiten": true,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 57
+   },
+   {
+    "pca": 192,
+    "whiten": true,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 47
+   }
+  ]
+ }
+]

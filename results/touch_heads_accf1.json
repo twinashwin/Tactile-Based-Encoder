@@ -1,0 +1,133 @@
+[
+ {
+  "features": "dinop9_patch+patch_bg",
+  "head": "Logistic",
+  "selected_on": "acc_f1",
+  "accuracy": 0.6003,
+  "balanced_accuracy": 0.349,
+  "macro_f1": 0.3565,
+  "acc_f1": 0.4784,
+  "fold_std": 0.0145,
+  "hyperparams": [
+   {
+    "pca": 192,
+    "whiten": false,
+    "C": 3.0,
+    "class_weight": null
+   },
+   {
+    "pca": 192,
+    "whiten": false,
+    "C": 10.0,
+    "class_weight": null
+   },
+   {
+    "pca": 192,
+    "whiten": true,
+    "C": 10.0,
+    "class_weight": "balanced"
+   },
+   {
+    "pca": null,
+    "whiten": false,
+    "C": 10.0,
+    "class_weight": null
+   },
+   {
+    "pca": 128,
+    "whiten": true,
+    "C": 3.0,
+    "class_weight": null
+   }
+  ]
+ },
+ {
+  "features": "dinop9_patch+patch_bg",
+  "head": "SVM-RBF",
+  "selected_on": "acc_f1",
+  "accuracy": 0.6085,
+  "balanced_accuracy": 0.3383,
+  "macro_f1": 0.3558,
+  "acc_f1": 0.4822,
+  "fold_std": 0.0246,
+  "hyperparams": [
+   {
+    "pca": null,
+    "whiten": false,
+    "C": 100.0,
+    "gamma": "scale",
+    "class_weight": "balanced"
+   },
+   {
+    "pca": 128,
+    "whiten": true,
+    "C": 3.0,
+    "gamma": "scale",
+    "class_weight": "balanced"
+   },
+   {
+    "pca": null,
+    "whiten": false,
+    "C": 30.0,
+    "gamma": "scale",
+    "class_weight": null
+   },
+   {
+    "pca": 128,
+    "whiten": false,
+    "C": 30.0,
+    "gamma": 10.0,
+    "class_weight": null
+   },
+   {
+    "pca": 128,
+    "whiten": true,
+    "C": 3.0,
+    "gamma": "scale",
+    "class_weight": null
+   }
+  ]
+ },
+ {
+  "features": "dinop9_patch+patch_bg",
+  "head": "SVM-linear",
+  "selected_on": "acc_f1",
+  "accuracy": 0.6031,
+  "balanced_accuracy": 0.355,
+  "macro_f1": 0.3696,
+  "acc_f1": 0.4863,
+  "fold_std": 0.0262,
+  "hyperparams": [
+   {
+    "pca": null,
+    "whiten": false,
+    "C": 10.0,
+    "class_weight": null
+   },
+   {
+    "pca": 128,
+    "whiten": true,
+    "C": 1.0,
+    "class_weight": null
+   },
+   {
+    "pca": null,
+    "whiten": false,
+    "C": 10.0,
+    "class_weight": null
+   },
+   {
+    "pca": null,
+    "whiten": false,
+    "C": 10.0,
+    "class_weight": null
+   },
+   {
+    "pca": null,
+    "whiten": false,
+    "C": 10.0,
+    "class_weight": null
+   }
+  ]
+ }
+]

@@ -1,0 +1,91 @@
+[
+ {
+  "features": "dinop9_patch+patch_bg",
+  "head": "MLP",
+  "selected_on": "accuracy",
+  "accuracy": 0.7658,
+  "balanced_accuracy": 0.5697,
+  "macro_f1": 0.5926,
+  "acc_f1": 0.6792,
+  "fold_std": 0.0075,
+  "hyperparams": [
+   {
+    "pca": null,
+    "whiten": false,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 81
+   },
+   {
+    "pca": null,
+    "whiten": false,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 55
+   },
+   {
+    "pca": null,
+    "whiten": false,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 66
+   },
+   {
+    "pca": null,
+    "whiten": false,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 55
+   },
+   {
+    "pca": null,
+    "whiten": false,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 72
+   }
+  ]
+ },
+ {
+  "features": "dinop9_patch+patch_bg",
+  "head": "SVM-linear",
+  "selected_on": "accuracy",
+  "accuracy": 0.7086,
+  "balanced_accuracy": 0.4286,
+  "macro_f1": 0.4607,
+  "acc_f1": 0.5847,
+  "fold_std": 0.0057,
+  "hyperparams": [
+   {
+    "pca": 192,
+    "whiten": true,
+    "C": 1.0,
+    "class_weight": null
+   },
+   {
+    "pca": 192,
+    "whiten": true,
+    "C": 1.0,
+    "class_weight": null
+   },
+   {
+    "pca": 192,
+    "whiten": true,
+    "C": 1.0,
+    "class_weight": null
+   },
+   {
+    "pca": 192,
+    "whiten": true,
+    "C": 1.0,
+    "class_weight": null
+   },
+   {
+    "pca": 192,
+    "whiten": true,
+    "C": 1.0,
+    "class_weight": null
+   }
+  ]
+ }
+]

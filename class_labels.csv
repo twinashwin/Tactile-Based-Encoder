@@ -1,0 +1,22 @@
+label_id,name,environment,count_k,use_for_classification
+-1,Inconclusive,NA,NA,no
+0,Concrete,Indoor/Outdoor,1.40,yes
+1,Plastic,Indoor/Outdoor,0.80,yes
+2,Glass,Indoor/Outdoor,0.23,yes
+3,Wood,Indoor/Outdoor,1.24,yes
+4,Metal,Indoor/Outdoor,0.76,yes
+5,Brick,Indoor/Outdoor,0.60,yes
+6,Tile,Indoor,0.63,yes
+7,Leather,Indoor,0.38,yes
+8,Synthetic Fabric,Indoor,1.65,yes
+9,Natural Fabric,Indoor/Outdoor,0.22,yes
+10,Rubber,Indoor/Outdoor,0.62,yes
+11,Paper,Indoor,0.45,yes
+12,Tree,Outdoor,0.91,yes
+13,Grass,Outdoor,0.61,yes
+14,Soil,Indoor/Outdoor,0.16,yes
+15,Rock,Indoor/Outdoor,1.08,yes
+16,Gravel,Indoor/Outdoor,0.71,yes
+17,Sand,Outdoor,0.70,yes
+18,Plants,Outdoor,0.78,yes
+19,Others,Indoor/Outdoor,0.09,yes

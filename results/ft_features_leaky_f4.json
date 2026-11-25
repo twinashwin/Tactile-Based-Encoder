@@ -1,0 +1,14 @@
+{
+ "features": [
+  "..\\features_ftl4_patch",
+  "..\\features_ftl4_bg"
+ ],
+ "fold": 4,
+ "protocol": "leaky",
+ "config": {
+  "pca": null,
+  "alpha": 0.0001
+ },
+ "accuracy": 0.8298045602605864,
+ "macro_f1": 0.6916780695589451
+}

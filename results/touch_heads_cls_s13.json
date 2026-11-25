@@ -1,0 +1,49 @@
+[
+ {
+  "features": "dinop9",
+  "head": "MLP",
+  "selected_on": "acc_f1",
+  "accuracy": 0.5966,
+  "balanced_accuracy": 0.3421,
+  "macro_f1": 0.3477,
+  "acc_f1": 0.4722,
+  "fold_std": 0.0255,
+  "hyperparams": [
+   {
+    "pca": null,
+    "whiten": false,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 50
+   },
+   {
+    "pca": null,
+    "whiten": false,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 56
+   },
+   {
+    "pca": null,
+    "whiten": false,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 66
+   },
+   {
+    "pca": null,
+    "whiten": false,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 80
+   },
+   {
+    "pca": null,
+    "whiten": false,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 37
+   }
+  ]
+ }
+]

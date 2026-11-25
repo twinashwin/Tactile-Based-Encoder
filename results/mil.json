@@ -1,0 +1,61 @@
+{
+ "mode": "mil",
+ "patches_per_press": 64,
+ "folds": [
+  {
+   "fold": 0,
+   "pooled_prob": {
+    "accuracy": 0.5935222672064777,
+    "macro_f1": 0.3393833889175564
+   },
+   "mean_token": {
+    "accuracy": 0.5805668016194332,
+    "macro_f1": 0.32778928149972075
+   }
+  },
+  {
+   "fold": 1,
+   "pooled_prob": {
+    "accuracy": 0.6044591246903386,
+    "macro_f1": 0.34258455165492363
+   },
+   "mean_token": {
+    "accuracy": 0.5887696118909992,
+    "macro_f1": 0.3381267615780481
+   }
+  },
+  {
+   "fold": 2,
+   "pooled_prob": {
+    "accuracy": 0.5734597156398105,
+    "macro_f1": 0.3278469283908637
+   },
+   "mean_token": {
+    "accuracy": 0.5687203791469194,
+    "macro_f1": 0.311102869752471
+   }
+  },
+  {
+   "fold": 3,
+   "pooled_prob": {
+    "accuracy": 0.5321585903083701,
+    "macro_f1": 0.30719399145844617
+   },
+   "mean_token": {
+    "accuracy": 0.5066079295154186,
+    "macro_f1": 0.288417275716945
+   }
+  },
+  {
+   "fold": 4,
+   "pooled_prob": {
+    "accuracy": 0.6072555205047319,
+    "macro_f1": 0.32359469175431194
+   },
+   "mean_token": {
+    "accuracy": 0.5851735015772871,
+    "macro_f1": 0.30286735569605117
+   }
+  }
+ ]
+}

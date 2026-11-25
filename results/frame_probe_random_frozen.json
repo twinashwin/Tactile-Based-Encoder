@@ -1,0 +1,55 @@
+{
+ "tag": "frozen",
+ "template": [
+  "../features_dinop9_patch",
+  "../features_patch_bg"
+ ],
+ "split": "press-level random, encoder k scores fold k",
+ "folds": [
+  {
+   "fold": 0,
+   "C": 10.0,
+   "accuracy": 0.7048187324835006,
+   "macro_f1": 0.5454971900398348,
+   "n_train": 44217,
+   "n_test": 11061
+  },
+  {
+   "fold": 1,
+   "C": 10.0,
+   "accuracy": 0.6921824104234527,
+   "macro_f1": 0.5064464339947389,
+   "n_train": 44226,
+   "n_test": 11052
+  },
+  {
+   "fold": 2,
+   "C": 10.0,
+   "accuracy": 0.7055419943947202,
+   "macro_f1": 0.5289241892381572,
+   "n_train": 44217,
+   "n_test": 11061
+  },
+  {
+   "fold": 3,
+   "C": 10.0,
+   "accuracy": 0.7007781397032211,
+   "macro_f1": 0.5337551972108238,
+   "n_train": 44226,
+   "n_test": 11052
+  },
+  {
+   "fold": 4,
+   "C": 10.0,
+   "accuracy": 0.7029496923633731,
+   "macro_f1": 0.5189556056438656,
+   "n_train": 44226,
+   "n_test": 11052
+  }
+ ],
+ "accuracy_mean": 0.7012541938736535,
+ "accuracy_std": 0.004826795344298624,
+ "macro_f1_mean": 0.526715723225484,
+ "macro_f1_std": 0.013253214875026445,
+ "n_folds": 5
+}

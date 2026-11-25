@@ -1,0 +1,27 @@
+{
+ "fold": 0,
+ "protocol": "leaky",
+ "touch_weight": 0.0,
+ "results": {
+  "vision": {
+   "accuracy": 0.919446704637917,
+   "macro_f1": 0.8679601462199699
+  },
+  "touch": {
+   "accuracy": 0.8030919446704637,
+   "macro_f1": 0.6425402250966047
+  },
+  "concat": {
+   "accuracy": 0.9332790886899919,
+   "macro_f1": 0.8548294132884531
+  },
+  "late_fusion": {
+   "accuracy": 0.919446704637917,
+   "macro_f1": 0.8679601462199699
+  },
+  "oracle": {
+   "accuracy": 0.951179820992677,
+   "macro_f1": null
+  }
+ }
+}

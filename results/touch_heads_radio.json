@@ -1,0 +1,138 @@
+[
+ {
+  "features": "radiomics",
+  "head": "Logistic",
+  "selected_on": "acc_f1",
+  "accuracy": 0.3267,
+  "balanced_accuracy": 0.1171,
+  "macro_f1": 0.1094,
+  "acc_f1": 0.2181,
+  "fold_std": 0.027,
+  "hyperparams": [
+   {
+    "pca": 64,
+    "whiten": true,
+    "C": 3.0,
+    "class_weight": null
+   },
+   {
+    "pca": 64,
+    "whiten": true,
+    "C": 3.0,
+    "class_weight": null
+   },
+   {
+    "pca": 64,
+    "whiten": true,
+    "C": 3.0,
+    "class_weight": null
+   },
+   {
+    "pca": 64,
+    "whiten": true,
+    "C": 10.0,
+    "class_weight": null
+   },
+   {
+    "pca": 64,
+    "whiten": true,
+    "C": 3.0,
+    "class_weight": null
+   }
+  ]
+ },
+ {
+  "features": "radiomics",
+  "head": "SVM-RBF",
+  "selected_on": "acc_f1",
+  "accuracy": 0.3186,
+  "balanced_accuracy": 0.1238,
+  "macro_f1": 0.1249,
+  "acc_f1": 0.2217,
+  "fold_std": 0.0296,
+  "hyperparams": [
+   {
+    "pca": 64,
+    "whiten": true,
+    "C": 1.0,
+    "gamma": "scale",
+    "class_weight": null
+   },
+   {
+    "pca": 64,
+    "whiten": true,
+    "C": 3.0,
+    "gamma": "scale",
+    "class_weight": "balanced"
+   },
+   {
+    "pca": 64,
+    "whiten": true,
+    "C": 30.0,
+    "gamma": 3.0,
+    "class_weight": null
+   },
+   {
+    "pca": 64,
+    "whiten": true,
+    "C": 10.0,
+    "gamma": "scale",
+    "class_weight": "balanced"
+   },
+   {
+    "pca": 64,
+    "whiten": true,
+    "C": 10.0,
+    "gamma": "scale",
+    "class_weight": "balanced"
+   }
+  ]
+ },
+ {
+  "features": "radiomics",
+  "head": "MLP",
+  "selected_on": "acc_f1",
+  "accuracy": 0.3289,
+  "balanced_accuracy": 0.1216,
+  "macro_f1": 0.1151,
+  "acc_f1": 0.222,
+  "fold_std": 0.0354,
+  "hyperparams": [
+   {
+    "pca": 128,
+    "whiten": true,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 48
+   },
+   {
+    "pca": 128,
+    "whiten": true,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 40
+   },
+   {
+    "pca": 64,
+    "whiten": true,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 31
+   },
+   {
+    "pca": 128,
+    "whiten": false,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 68
+   },
+   {
+    "pca": 64,
+    "whiten": true,
+    "weight_decay": 0.0001,
+    "class_weight": null,
+    "epochs": 52
+   }
+  ]
+ }
+]
